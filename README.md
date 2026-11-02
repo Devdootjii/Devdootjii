@@ -1,10 +1,12 @@
 <div align="center">
 
-# Divyansh Kumar
+<img src="assets/hero.svg" width="100%" alt="Divyansh Kumar — Technical Product Manager and AI System Architect, Team Devdoots">
 
-`TPM` · `AI SYSTEM ARCHITECT` · `TEAM DEVD00TS`
+<br>
 
-I take a technology nobody has pointed at a real problem yet, and point it there — then ship it, with the team that has to keep it alive.
+<img src="assets/ticker.svg" width="100%" alt="Currently building: VyomAcre, NETRA, Auto Reels Studio">
+
+<br>
 
 <a href="https://github.com/Devdootjii?tab=repositories"><img src="https://img.shields.io/badge/repositories-14-181717?style=flat-square&logo=github&logoColor=white" alt="Repositories"></a>
 <a href="https://devdoots-vyom-acre-nine.vercel.app"><img src="https://img.shields.io/badge/VyomAcre-live-00E585?style=flat-square&logo=vercel&logoColor=white" alt="VyomAcre"></a>
@@ -13,20 +15,7 @@ I take a technology nobody has pointed at a real problem yet, and point it there
 
 </div>
 
-```
-╭──────────────────────────────────────────────────────────────╮
-│                                                              │
-│  ROLE      Technical Product Manager · AI System Architect   │
-│  TEAM      Devdoots — 6 engineers, 1 protected main          │
-│  DOMAIN    Geospatial · vision · agentic workflows           │
-│  SHIPPED   600+ commits · 8 languages · 3 live apps          │
-│  RULE      runs on a laptop. no GPU. no paid tier.           │
-│  STATUS    building                                          │
-│                                                              │
-╰──────────────────────────────────────────────────────────────╯
-```
-
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 01 — The one rule
 
@@ -34,7 +23,9 @@ If a student in Lucknow cannot clone it and run it tonight, it is not finished.
 
 Every project below runs on a laptop. Every README has a *Known limitations* section that says what does not work — that section is the reason I trust the rest of the document, so I do not let it go empty. And every PR I merge, I can defend line by line, because I review before I merge rather than after.
 
----
+I take a technology nobody has pointed at a real problem yet, and point it there — then ship it, with the team that has to keep it alive.
+
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 02 — Shipped
 
@@ -47,7 +38,7 @@ Every project below runs on a laptop. Every README has a *Known limitations* sec
 | **[vyomacre-leads](https://github.com/Devdootjii/vyomacre-leads)** | Lead capture where priority is **scored at submit time**, so nobody sorts a spreadsheet later | Serverless · Postgres | 🟢 live |
 | **[VyomAcre Android](https://github.com/Devdootjii/Devdoots_VyomAcre_Android)** | Native client — every screen real Compose, no WebView wrapper | Kotlin · Jetpack Compose · Material 3 | 🟡 v4.0 |
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 03 — Three I would defend in an interview
 
@@ -135,7 +126,7 @@ Six members, one protected `main`, and rules that are written down instead of as
 </tr>
 </table>
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 04 — Stack
 
@@ -146,7 +137,7 @@ Six members, one protected `main`, and rules that are written down instead of as
 | **Frontend** | ![React 19](https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white) ![Kotlin](https://img.shields.io/badge/Kotlin%20%2B%20Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white) |
 | **Platform** | ![Earth Engine](https://img.shields.io/badge/Earth%20Engine-4285F4?style=flat-square&logo=googleearth&logoColor=white) ![Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=flat-square&logo=googledrive&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Git](https://img.shields.io/badge/Git-F1002B?style=flat-square&logo=git&logoColor=white) |
 
----
+<img src="assets/divider.svg" width="100%" alt="">
 
 ## 05 — How I run a team
 
@@ -156,18 +147,12 @@ Every task is scoped to a **45–60 minute focus block**, so "not done" is a fac
 
 The result is a team whose repos read like a company's, not a classroom's.
 
----
+<br>
 
 <div align="center">
 
-**Building for the next user, not the next demo.**
-
-<br>
-
 <a href="https://github.com/Devdootjii?tab=repositories"><img src="https://img.shields.io/badge/Explore%20the%20repos-00E585?style=for-the-badge&logo=github&logoColor=black" alt="Explore repositories"></a>
 
-<br><br>
-
-<sub>Profile maintained by hand — no auto-generated stat cards, because a broken image is worse than no image.</sub>
-
 </div>
+
+<img src="assets/footer.svg" width="100%" alt="Building for the next user, not the next demo">

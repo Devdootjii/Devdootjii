@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="72" viewBox="0 0 1200 72" role="img" aria-label="Currently building: VyomAcre, NETRA, Auto Reels Studio">
+  <defs>
+    <linearGradient id="tb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0B111C"/>
+      <stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="71" rx="12" fill="url(#tb)" stroke="#22304A"/>
+  <text x="22" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="18" fill="#00E585">$</text>
+  <g>
+    <text x="70" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#9FB3C8" opacity="1">building VyomAcre  -  rooftop leasing, verified from orbit
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.2;0.26;1" dur="20s" begin="0s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#9FB3C8" opacity="0">shipping NETRA  -  SOS detection on a plain laptop
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.2;0.26;1" dur="20s" begin="5s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#9FB3C8" opacity="0">auto reels  -  2-hour lecture becomes 10 postable clips
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.2;0.26;1" dur="20s" begin="10s" repeatCount="indefinite"/>
+    </text>
+    <text x="70" y="46" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" fill="#9FB3C8" opacity="0">6 engineers, 1 protected main, zero direct pushes
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.06;0.2;0.26;1" dur="20s" begin="15s" repeatCount="indefinite"/>
+    </text>
+  </g>
+  <rect x="22" y="26" width="6" height="20" fill="#00E585">
+    <animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

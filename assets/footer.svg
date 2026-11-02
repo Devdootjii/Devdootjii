@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170" role="img" aria-label="Building for the next user, not the next demo">
+  <defs>
+    <linearGradient id="fb" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1019"/>
+      <stop offset="100%" stop-color="#101C2E"/>
+    </linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E585" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0.35"/>
+    </linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#00E585" stop-opacity="0.3"/>
+    </linearGradient>
+    <clipPath id="fclip"><rect x="0" y="0" width="1200" height="170" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#fclip)">
+    <rect width="1200" height="170" fill="url(#fb)"/>
+    <path d="M0 126 C 200 100, 400 154, 600 130 C 800 106, 1000 152, 1200 124 L1200 170 L0 170 Z" fill="url(#w1)" opacity="0.30">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-40 6;0 0" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <path d="M0 146 C 220 126, 420 168, 620 146 C 820 126, 1010 166, 1200 144 L1200 170 L0 170 Z" fill="url(#w2)" opacity="0.26">
+      <animateTransform attributeName="transform" type="translate" values="0 0;50 -5;0 0" dur="16s" repeatCount="indefinite"/>
+    </path>
+    <line x1="0" y1="120" x2="1200" y2="120" stroke="#00E585" stroke-opacity="0.18" stroke-width="1"/>
+    <text x="600" y="66" text-anchor="middle" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="26" font-weight="700" fill="#E6F2EC">Building for the next user, not the next demo.</text>
+    <text x="600" y="98" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" letter-spacing="3" fill="#6E8BA6">DIVYANSH KUMAR · TEAM DEVD00TS</text>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="169" rx="16" fill="none" stroke="#22304A"/>
+</svg>

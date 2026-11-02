@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-label="Divyansh Kumar — Technical Product Manager and AI System Architect">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1A"/>
+      <stop offset="55%" stop-color="#0D1524"/>
+      <stop offset="100%" stop-color="#101B2E"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="45%" stop-color="#8FF7D2"/>
+      <stop offset="100%" stop-color="#00E585"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E585" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00E585" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00E585" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00E585" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#00E585" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3B82F6" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#3B82F6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="orb3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#A855F7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2A3A52" stroke-width="1" stroke-opacity="0.35"/>
+    </pattern>
+    <mask id="txtmask">
+      <text x="72" y="150" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="1" fill="#ffffff">DIVYANSH KUMAR</text>
+    </mask>
+    <clipPath id="card"><rect x="0" y="0" width="1200" height="340" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+
+    <!-- drifting grid -->
+    <g opacity="0.5">
+      <rect x="-80" y="-80" width="1400" height="520" fill="url(#grid)">
+        <animateTransform attributeName="transform" type="translate" values="0 0;40 40;0 0" dur="24s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+
+    <!-- aurora orbs -->
+    <circle cx="180" cy="70" r="230" fill="url(#orb1)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;70 40;0 0" dur="13s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.75;1;0.75" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="270" r="260" fill="url(#orb2)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-60 -35;0 0" dur="17s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0.95;0.6" dur="11s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="760" cy="40" r="180" fill="url(#orb3)">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-40 30;0 0" dur="21s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- border -->
+    <rect x="0.5" y="0.5" width="1199" height="339" rx="18" fill="none" stroke="#243349" stroke-width="1"/>
+
+    <!-- name -->
+    <text x="72" y="150" font-family="'Segoe UI',system-ui,-apple-system,Helvetica,Arial,sans-serif" font-size="72" font-weight="800" letter-spacing="1" fill="url(#txt)">DIVYANSH KUMAR</text>
+
+    <!-- shine sweep across the name -->
+    <g mask="url(#txtmask)">
+      <rect x="-260" y="70" width="200" height="120" fill="url(#shine)" transform="skewX(-18)">
+        <animate attributeName="x" values="-320;1300;-320" dur="7s" repeatCount="indefinite" keyTimes="0;0.55;1"/>
+      </rect>
+    </g>
+
+    <!-- role -->
+    <text x="74" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" letter-spacing="2.4" fill="#7DD3B0">TECHNICAL PRODUCT MANAGER</text>
+    <circle cx="470" cy="194" r="3" fill="#00E585">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text x="490" y="200" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" letter-spacing="2.4" fill="#6E8BA6">AI SYSTEM ARCHITECT</text>
+
+    <!-- animated hairline -->
+    <line x1="74" y1="238" x2="1126" y2="238" stroke="#1E2B3D" stroke-width="1"/>
+    <line x1="74" y1="238" x2="1126" y2="238" stroke="url(#line)" stroke-width="2">
+      <animate attributeName="stroke-dasharray" values="0 1052;320 732;0 1052" dur="6s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- bottom facts -->
+    <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" fill="#8B9BB0">
+      <text x="74" y="276">TEAM DEVD00TS</text>
+      <text x="300" y="276" fill="#5C7288">/</text>
+      <text x="326" y="276">600+ COMMITS</text>
+      <text x="530" y="276" fill="#5C7288">/</text>
+      <text x="556" y="276">8 LANGUAGES</text>
+      <text x="740" y="276" fill="#5C7288">/</text>
+      <text x="766" y="276">3 LIVE DEPLOYMENTS</text>
+    </g>
+    <rect x="986" y="264" width="9" height="15" fill="#00E585">
+      <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
