@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250" role="img" aria-label="Language breakdown: Python 44 percent, JavaScript 34 percent, Kotlin 11 percent, and others">
+  <defs>
+    <linearGradient id="lbBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1019"/><stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+    <clipPath id="reveal"><rect x="64" y="94" width="1072" height="34" rx="4">
+      <animate attributeName="width" from="0" to="1072" dur="1.6s" begin="0.15s" fill="freeze" calcMode="spline" keySplines="0.3 0.9 0.25 1" keyTimes="0;1"/>
+    </rect></clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="249" rx="14" fill="url(#lbBg)" stroke="#22304A"/>
+  <text x="64" y="44" font-family="ui-monospace,Menlo,monospace" font-size="13" letter-spacing="2.5" fill="#00E585">LANGUAGES</text>
+  <text x="64" y="66" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="15" fill="#7E93A8">By bytes written across all public repositories</text>
+  <g clip-path="url(#reveal)">
+    <rect x="64.00" y="96" width="475.03" height="30" fill="#3776AB"/>
+    <rect x="539.03" y="96" width="360.06" height="30" fill="#F1E05A"/>
+    <rect x="899.09" y="96" width="117.36" height="30" fill="#A97BFF"/>
+    <rect x="1016.45" y="96" width="67.85" height="30" fill="#DA5B0B"/>
+    <rect x="1084.30" y="96" width="25.42" height="30" fill="#E34C26"/>
+    <rect x="1109.73" y="96" width="25.07" height="30" fill="#563D7C"/>
+    <rect x="1134.79" y="96" width="1.21" height="30" fill="#4A5C72"/>
+  </g>
+  <rect x="64" y="96" width="1072" height="30" rx="4" fill="none" stroke="#0A1019" stroke-width="1.5"/>
+    <circle cx="69" cy="168" r="5" fill="#3776AB"/>
+    <text x="80" y="172" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">Python</text>
+    <text x="80" y="189" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">44.3%</text>
+    <circle cx="337" cy="168" r="5" fill="#F1E05A"/>
+    <text x="348" y="172" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">JavaScript</text>
+    <text x="348" y="189" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">33.6%</text>
+    <circle cx="605" cy="168" r="5" fill="#A97BFF"/>
+    <text x="616" y="172" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">Kotlin</text>
+    <text x="616" y="189" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">10.9%</text>
+    <circle cx="873" cy="168" r="5" fill="#DA5B0B"/>
+    <text x="884" y="172" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">Jupyter Notebook</text>
+    <text x="884" y="189" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">6.3%</text>
+    <circle cx="69" cy="208" r="5" fill="#E34C26"/>
+    <text x="80" y="212" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">HTML</text>
+    <text x="80" y="229" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">2.4%</text>
+    <circle cx="337" cy="208" r="5" fill="#563D7C"/>
+    <text x="348" y="212" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">CSS</text>
+    <text x="348" y="229" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">2.3%</text>
+    <circle cx="605" cy="208" r="5" fill="#4A5C72"/>
+    <text x="616" y="212" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="13.5" fill="#9FB3C8">Other</text>
+    <text x="616" y="229" font-family="ui-monospace,Menlo,monospace" font-size="11.5" fill="#5A6E86">0.1%</text>
+</svg>

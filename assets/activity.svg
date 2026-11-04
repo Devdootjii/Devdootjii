@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Commit activity across 14 public repositories over the last 52 weeks, 621 commits">
+  <defs>
+    <linearGradient id="barGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#00E585" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#00E585" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="acBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1019"/><stop offset="100%" stop-color="#0E1626"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00E585" stop-opacity="0"/><stop offset="100%" stop-color="#00E585" stop-opacity="0.85"/>
+    </linearGradient>
+    <clipPath id="reveal">
+      <rect x="64" y="64" width="1072" height="212">
+        <animate attributeName="width" from="0" to="1072" dur="1.7s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.9 0.3 1" keyTimes="0;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+  <rect x="0.5" y="0.5" width="1199" height="319" rx="14" fill="url(#acBg)" stroke="#22304A"/>
+
+  <text x="64" y="40" font-family="ui-monospace,Menlo,monospace" font-size="13" letter-spacing="2.5" fill="#00E585">COMMIT ACTIVITY</text>
+  <text x="64" y="62" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="15" fill="#7E93A8">Last 52 weeks across 14 public repositories</text>
+  <text x="1136" y="46" text-anchor="end" font-family="'Segoe UI',system-ui,Helvetica,sans-serif" font-size="34" font-weight="800" fill="#E8F5EF">621</text>
+  <text x="1136" y="64" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" letter-spacing="1.6" fill="#5A6E86">COMMITS</text>
+
+  <line x1="64" y1="262.0" x2="1136" y2="262.0" stroke="#1A2434" stroke-width="1"/>
+  <text x="52" y="266.0" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#4A5C72">0</text>
+  <line x1="64" y1="203.0" x2="1136" y2="203.0" stroke="#1A2434" stroke-width="1"/>
+  <text x="52" y="207.0" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#4A5C72">25</text>
+  <line x1="64" y1="144.1" x2="1136" y2="144.1" stroke="#1A2434" stroke-width="1"/>
+  <text x="52" y="148.1" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#4A5C72">50</text>
+  <line x1="64" y1="85.1" x2="1136" y2="85.1" stroke="#1A2434" stroke-width="1"/>
+  <text x="52" y="89.1" text-anchor="end" font-family="ui-monospace,Menlo,monospace" font-size="11" fill="#4A5C72">75</text>
+
+  <g clip-path="url(#reveal)">
+  <rect x="67.9" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="88.5" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="109.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="129.8" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="150.4" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="171.0" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="191.6" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="212.2" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="232.8" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="253.5" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="274.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="294.7" y="195.95" width="12.8" height="66.05" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="315.3" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="335.9" y="257.28" width="12.8" height="4.72" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="356.5" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="377.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="397.8" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="418.4" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="439.0" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="459.6" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="480.2" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="500.8" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="521.5" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="542.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="562.7" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="583.3" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="603.9" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="624.5" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="645.1" y="243.13" width="12.8" height="18.87" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="665.8" y="177.08" width="12.8" height="84.92" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="686.4" y="217.18" width="12.8" height="44.82" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="707.0" y="247.85" width="12.8" height="14.15" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="727.6" y="250.21" width="12.8" height="11.79" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="748.2" y="250.21" width="12.8" height="11.79" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="768.8" y="257.28" width="12.8" height="4.72" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="789.5" y="257.28" width="12.8" height="4.72" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="810.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="830.7" y="254.92" width="12.8" height="7.08" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="851.3" y="167.64" width="12.8" height="94.36" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="871.9" y="125.18" width="12.8" height="136.82" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="892.5" y="250.21" width="12.8" height="11.79" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="913.1" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="933.8" y="262.00" width="12.8" height="0.00" rx="1.6" fill="url(#barGrad)" opacity="0.3"/>
+  <rect x="954.4" y="240.77" width="12.8" height="21.23" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="975.0" y="78.00" width="12.8" height="184.00" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="995.6" y="132.26" width="12.8" height="129.74" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1016.2" y="259.64" width="12.8" height="2.36" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1036.8" y="108.67" width="12.8" height="153.33" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1057.5" y="122.82" width="12.8" height="139.18" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1078.1" y="108.67" width="12.8" height="153.33" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1098.7" y="160.56" width="12.8" height="101.44" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  <rect x="1119.3" y="198.31" width="12.8" height="63.69" rx="1.6" fill="url(#barGrad)" opacity="1.0"/>
+  </g>
+
+  <rect x="64" y="64" width="2" height="212" fill="url(#edge)" opacity="0">
+    <animate attributeName="x" from="64" to="1136" dur="1.7s" begin="0.1s" fill="freeze" calcMode="spline" keySplines="0.25 0.9 0.3 1" keyTimes="0;1"/>
+    <animate attributeName="opacity" values="0;0.9;0" keyTimes="0;0.7;1" dur="1.9s" begin="0.1s" fill="freeze"/>
+  </rect>
+
+
+  <text x="70" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">NOV</text>
+  <text x="153" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">DEC</text>
+  <text x="256" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">JAN</text>
+  <text x="338" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">FEB</text>
+  <text x="421" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">MAR</text>
+  <text x="503" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">APR</text>
+  <text x="606" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">MAY</text>
+  <text x="689" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">JUN</text>
+  <text x="771" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">JUL</text>
+  <text x="874" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">AUG</text>
+  <text x="957" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">SEP</text>
+  <text x="1060" y="284" text-anchor="middle" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#5A6E86">OCT</text>
+  <line x1="64" y1="262" x2="1136" y2="262" stroke="#2A3A52" stroke-width="1.2"/>
+</svg>

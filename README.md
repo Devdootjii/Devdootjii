@@ -19,11 +19,11 @@
 
 ## 01 — The one rule
 
-If a student in Lucknow cannot clone it and run it tonight, it is not finished.
+> **If a student in Lucknow cannot clone it and run it tonight, it is not finished.**
 
-Every project below runs on a laptop. Every README has a *Known limitations* section that says what does not work — that section is the reason I trust the rest of the document, so I do not let it go empty. And every PR I merge, I can defend line by line, because I review before I merge rather than after.
+That single constraint has shaped everything below. No GPU. No paid tier. No "coming soon." Every project here runs on a laptop, and every README carries a *Known limitations* section that says plainly what does not work — because that section is the reason the rest of the document is worth believing, and I do not let it go empty.
 
-I take a technology nobody has pointed at a real problem yet, and point it there — then ship it, with the team that has to keep it alive.
+My work sits in one narrow but useful gap: **taking a technology nobody has pointed at a real problem yet, and pointing it there.** Satellite imagery for rooftop leasing. Pose estimation for distress detection. Whisper for turning a two-hour lecture into ten postable reels. In each case the interesting part was never the model — it was the loop around it that makes it usable by a person who has never heard of the model.
 
 <img src="assets/divider.svg" width="100%" alt="">
 
@@ -128,7 +128,17 @@ Six members, one protected `main`, and rules that are written down instead of as
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 04 — Stack
+## 04 — The numbers
+
+Both charts are generated from this account's own commit history and language bytes. Nothing here is a third-party widget — if a service goes down, these still render.
+
+<img src="assets/activity.svg" width="100%" alt="Commit activity: 621 commits over the last 52 weeks across 14 public repositories">
+
+<img src="assets/langs.svg" width="100%" alt="Languages by bytes: Python 44.3%, JavaScript 33.6%, Kotlin 10.9%, Jupyter Notebook 6.3%, HTML 2.4%, CSS 2.3%">
+
+<img src="assets/divider.svg" width="100%" alt="">
+
+## 05 — Stack
 
 |  |  |
 | :--- | :--- |
@@ -139,11 +149,18 @@ Six members, one protected `main`, and rules that are written down instead of as
 
 <img src="assets/divider.svg" width="100%" alt="">
 
-## 05 — How I run a team
+## 06 — How I run a team
 
 Six people, one protected `main`, and rules that are written down rather than assumed.
 
 Every task is scoped to a **45–60 minute focus block**, so "not done" is a fact about the task, not about the person. Every PR gets reviewed against a checklist before it merges — does it run, are the names right, is the proof-of-work log filled in. Every evening there is a five-minute technical standup where each member explains their own work out loud, because a commit nobody can explain is a commit you cannot debug. Three missed submissions earns a review, not a lecture.
+
+| | Role | Owns |
+| :--- | :--- | :--- |
+| **Divyansh** | TPM · Lead Architect | Roadmap, architecture review, PR audits, `main` merges |
+| **Harsh** | Discipline & Compliance | Submission tracking, Git rule compliance, attendance |
+| **Balram** | Content & Task Lead | Sprint task design, test datasets, README templates |
+| **Ritesh · Aryan · Khushi** | Core Developers | Implementation, feature branches, peer review, proof-of-work logs |
 
 The result is a team whose repos read like a company's, not a classroom's.
 
