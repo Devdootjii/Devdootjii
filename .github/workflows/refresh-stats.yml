@@ -1,0 +1,41 @@
+name: Refresh profile charts
+
+on:
+  schedule:
+    # Every Monday at 03:00 UTC (08:30 IST)
+    - cron: "0 3 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Regenerate activity and language charts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: Devdootjii
+        run: python scripts/generate_stats.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add assets/activity.svg assets/langs.svg
+            git commit -m "chore: refresh activity and language charts"
+            git push
+            echo "Charts updated."
+          else
+            echo "No changes - charts already current."
+          fi
